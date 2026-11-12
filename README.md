@@ -6,31 +6,31 @@
 
 | Total Problems | Topics |
 |---|---|
-| 76 | 20 |
+| 81 | 20 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (1)
-- [binary search](#binary-search) (2)
-- [brute force](#brute-force) (11)
+- [binary search](#binary-search) (4)
+- [brute force](#brute-force) (12)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (5)
 - [data structures](#data-structures) (4)
 - [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (4)
+- [dp](#dp) (5)
 - [games](#games) (1)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (19)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (60)
-- [math](#math) (18)
+- [implementation](#implementation) (64)
+- [math](#math) (20)
 - [number theory](#number-theory) (3)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (8)
-- [strings](#strings) (15)
+- [sortings](#sortings) (9)
+- [strings](#strings) (16)
 - [two pointers](#two-pointers) (7)
 
 ---
@@ -46,12 +46,15 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
+| 492B | [Vanya and Lanterns](https://codeforces.com/contest/492/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/492/B%20-%20Vanya%20and%20Lanterns/solution.cpp) |
+| 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
 | 1692E | [Binary Deque](https://codeforces.com/contest/1692/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/1692/E%20-%20Binary%20Deque/solution.cpp) |
 
 ### brute force
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 25A | [IQ test](https://codeforces.com/contest/25/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/25/A%20-%20IQ%20test/solution.cpp) |
 | 109A | [Lucky Sum of Digits](https://codeforces.com/contest/109/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/109/A%20-%20Lucky%20Sum%20of%20Digits/solution.cpp) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/231/A%20-%20Team/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
@@ -102,6 +105,7 @@
 | 363B | [Fence](https://codeforces.com/contest/363/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/363/B%20-%20Fence/solution.cpp) |
 | 433B | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/433/B%20-%20Kuriyama%20Mirai's%20Stones/solution.cpp) |
 | 702A | [Maximum Increase](https://codeforces.com/contest/702/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/702/A%20-%20Maximum%20Increase/solution.cpp) |
+| 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
 | 1598C | [Delete Two Elements](https://codeforces.com/contest/1598/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/1598/C%20-%20Delete%20Two%20Elements/solution.cpp) |
 
 ### games
@@ -187,11 +191,13 @@
 | 469A | [I Wanna Be the Guy](https://codeforces.com/contest/469/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/469/A%20-%20I%20Wanna%20Be%20the%20Guy/solution.cpp) |
 | 476A | [Dreamoon and Stairs](https://codeforces.com/contest/476/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/476/A%20-%20Dreamoon%20and%20Stairs/solution.cpp) |
 | 492A | [Vanya and Cubes](https://codeforces.com/contest/492/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/492/A%20-%20Vanya%20and%20Cubes/solution.cpp) |
+| 492B | [Vanya and Lanterns](https://codeforces.com/contest/492/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/492/B%20-%20Vanya%20and%20Lanterns/solution.cpp) |
 | 500A | [New Year Transportation](https://codeforces.com/contest/500/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/500/A%20-%20New%20Year%20Transportation/solution.cpp) |
 | 510A | [Fox And Snake](https://codeforces.com/contest/510/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/510/A%20-%20Fox%20And%20Snake/solution.cpp) |
 | 514A | [Chewbaсca and Number](https://codeforces.com/contest/514/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/514/A%20-%20Chewba%D1%81ca%20and%20Number/solution.cpp) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.cpp) |
 | 702A | [Maximum Increase](https://codeforces.com/contest/702/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/702/A%20-%20Maximum%20Increase/solution.cpp) |
+| 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
 | 723A | [The New Year: Meeting Friends](https://codeforces.com/contest/723/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/723/A%20-%20The%20New%20Year%3A%20Meeting%20Friends/solution.cpp) |
 | 785A | [Anton and Polyhedrons](https://codeforces.com/contest/785/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/785/A%20-%20Anton%20and%20Polyhedrons/solution.cpp) |
 | 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.cpp) |
@@ -216,6 +222,8 @@
 | 1690D | [Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | 1000 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/1690/D%20-%20Black%20and%20White%20Stripe/solution.cpp) |
 | 1692E | [Binary Deque](https://codeforces.com/contest/1692/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/1692/E%20-%20Binary%20Deque/solution.cpp) |
 | 1760D | [Challenging Valleys](https://codeforces.com/contest/1760/problem/D) | 1000 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/1760/D%20-%20Challenging%20Valleys/solution.cpp) |
+| 2290A | [Three Piles](https://codeforces.com/contest/2290/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/2290/A%20-%20Three%20Piles/solution.cpp) |
+| 2290B | [Stubborn Pen](https://codeforces.com/contest/2290/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/2290/B%20-%20Stubborn%20Pen/solution.cpp) |
 
 ### math
 
@@ -227,6 +235,7 @@
 | 258A | [Little Elephant and Bits](https://codeforces.com/contest/258/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/258/A%20-%20Little%20Elephant%20and%20Bits/solution.cpp) |
 | 268B | [Buttons](https://codeforces.com/contest/268/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/268/B%20-%20Buttons/solution.cpp) |
 | 476A | [Dreamoon and Stairs](https://codeforces.com/contest/476/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/476/A%20-%20Dreamoon%20and%20Stairs/solution.cpp) |
+| 492B | [Vanya and Lanterns](https://codeforces.com/contest/492/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/492/B%20-%20Vanya%20and%20Lanterns/solution.cpp) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.cpp) |
 | 723A | [The New Year: Meeting Friends](https://codeforces.com/contest/723/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/723/A%20-%20The%20New%20Year%3A%20Meeting%20Friends/solution.cpp) |
 | 1141A | [Game 23](https://codeforces.com/contest/1141/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/1141/A%20-%20Game%2023/solution.cpp) |
@@ -239,6 +248,7 @@
 | 2184A | [Social Experiment](https://codeforces.com/contest/2184/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/2184/A%20-%20Social%20Experiment/solution.cpp) |
 | 2185A | [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/2185/A%20-%20Perfect%20Root/solution.cpp) |
 | 2259B | [Minus Two](https://codeforces.com/contest/2259/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/2259/B%20-%20Minus%20Two/solution.cpp) |
+| 2290A | [Three Piles](https://codeforces.com/contest/2290/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/2290/A%20-%20Three%20Piles/solution.cpp) |
 
 ### number theory
 
@@ -262,6 +272,7 @@
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
 | 433B | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/433/B%20-%20Kuriyama%20Mirai's%20Stones/solution.cpp) |
 | 459B | [Pashmak and Flowers](https://codeforces.com/contest/459/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/459/B%20-%20Pashmak%20and%20Flowers/solution.cpp) |
+| 492B | [Vanya and Lanterns](https://codeforces.com/contest/492/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/492/B%20-%20Vanya%20and%20Lanterns/solution.cpp) |
 | 723A | [The New Year: Meeting Friends](https://codeforces.com/contest/723/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/723/A%20-%20The%20New%20Year%3A%20Meeting%20Friends/solution.cpp) |
 | 1300B | [Assigning to Classes](https://codeforces.com/contest/1300/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/1300/B%20-%20Assigning%20to%20Classes/solution.cpp) |
 | 1535B | [Array Reodering](https://codeforces.com/contest/1535/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/1535/B%20-%20Array%20Reodering/solution.cpp) |
@@ -286,6 +297,7 @@
 | 1278A | [Shuffle Hashing](https://codeforces.com/contest/1278/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/1278/A%20-%20Shuffle%20Hashing/solution.cpp) |
 | 1303A | [Erasing Zeroes](https://codeforces.com/contest/1303/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/1303/A%20-%20Erasing%20Zeroes/solution.cpp) |
 | 1582C | [Grandma Capa Knits a Scarf](https://codeforces.com/contest/1582/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/1582/C%20-%20Grandma%20Capa%20Knits%20a%20Scarf/solution.cpp) |
+| 2290B | [Stubborn Pen](https://codeforces.com/contest/2290/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/2290/B%20-%20Stubborn%20Pen/solution.cpp) |
 
 ### two pointers
 
