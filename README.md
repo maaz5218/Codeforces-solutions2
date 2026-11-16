@@ -6,31 +6,32 @@
 
 | Total Problems | Topics |
 |---|---|
-| 82 | 20 |
+| 83 | 21 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (1)
-- [binary search](#binary-search) (4)
+- [binary search](#binary-search) (5)
 - [brute force](#brute-force) (12)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (5)
 - [data structures](#data-structures) (4)
 - [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (5)
+- [dp](#dp) (6)
 - [games](#games) (1)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (19)
-- [hashing](#hashing) (1)
+- [hashing](#hashing) (2)
 - [implementation](#implementation) (65)
 - [math](#math) (20)
 - [number theory](#number-theory) (3)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (10)
-- [strings](#strings) (16)
+- [string suffix structures](#string-suffix-structures) (1)
+- [strings](#strings) (17)
 - [two pointers](#two-pointers) (7)
 
 ---
@@ -45,6 +46,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/126/B%20-%20Password/solution.cpp) |
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
 | 492B | [Vanya and Lanterns](https://codeforces.com/contest/492/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/492/B%20-%20Vanya%20and%20Lanterns/solution.cpp) |
 | 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
@@ -102,6 +104,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/126/B%20-%20Password/solution.cpp) |
 | 363B | [Fence](https://codeforces.com/contest/363/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/363/B%20-%20Fence/solution.cpp) |
 | 433B | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/433/B%20-%20Kuriyama%20Mirai's%20Stones/solution.cpp) |
 | 702A | [Maximum Increase](https://codeforces.com/contest/702/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/702/A%20-%20Maximum%20Increase/solution.cpp) |
@@ -155,6 +158,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 4C | [Registration System](https://codeforces.com/contest/4/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/4/C%20-%20Registration%20System/solution.cpp) |
+| 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/126/B%20-%20Password/solution.cpp) |
 
 ### implementation
 
@@ -280,6 +284,12 @@
 | 1535B | [Array Reodering](https://codeforces.com/contest/1535/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/1535/B%20-%20Array%20Reodering/solution.cpp) |
 | 2290C | [Books on a Shelf](https://codeforces.com/contest/2290/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/2290/C%20-%20Books%20on%20a%20Shelf/solution.cpp) |
 
+### string suffix structures
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/126/B%20-%20Password/solution.cpp) |
+
 ### strings
 
 | # | Problem | Difficulty | Solution |
@@ -287,6 +297,7 @@
 | 41A | [Translation](https://codeforces.com/contest/41/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/41/A%20-%20Translation/solution.cpp) |
 | 71A | [Way Too Long Words](https://codeforces.com/contest/71/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/71/A%20-%20Way%20Too%20Long%20Words/solution.cpp) |
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/118/A%20-%20String%20Task/solution.cpp) |
+| 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/126/B%20-%20Password/solution.cpp) |
 | 131A | [cAPS lOCK](https://codeforces.com/contest/131/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/131/A%20-%20cAPS%20lOCK/solution.cpp) |
 | 208A | [Dubstep](https://codeforces.com/contest/208/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/208/A%20-%20Dubstep/solution.cpp) |
 | 219A | [k-String](https://codeforces.com/contest/219/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/maaz5218/Codeforces-solutions2/blob/HEAD/219/A%20-%20k-String/solution.cpp) |
